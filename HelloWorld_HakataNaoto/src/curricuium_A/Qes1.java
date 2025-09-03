@@ -3,13 +3,13 @@ package curricuium_A;
 public class Qes1 {//Qes1
 
 	public static void main(String[] args) {
-		byte byteNum=10;
+		byte byteNum=0;
 		byteNum=10;
-		short shortNum=100;
+		short shortNum=0;
 		shortNum=100;
-		int intNum=1000;
+		int intNum=0;
 		intNum=1000;
-		long longNum=10000;
+		long longNum=0;
 		longNum=10000;
 		System.out.println(byteNum+shortNum+intNum+longNum);
 		
@@ -19,9 +19,9 @@ public class Qes1 {//Qes1
 		letter='a';
 		String letters ="ハロー";
 		letters="ハロー";
-		boolean isBoolean=true;
-		isBoolean= true;
-		System.out.println('a'+"ハロー"+true);
+		boolean isBoolean=false;
+		isBoolean=true;
+		System.out.println("letter"+"letters"+isBoolean);
 		
 		long number=byteNum+byteNum+byteNum+shortNum+intNum+longNum;//各桁の合計をコンソールに出力
 		long sum=0;
@@ -31,15 +31,14 @@ public class Qes1 {//Qes1
 		}
 		System.out.println(sum);
 		
-		long num=longNum*longNum*shortNum;//各桁の積をコンソールに出力
-		long product=0;
+		long num=0;//各桁の積をコンソールに出力
 		long Temp=Math.abs(num);
 		while(Temp>0) {num*=Temp%10;
 		Temp/=10;
 		}
-		System.out.println(product);
+		System.out.println(longNum*longNum*shortNum);
 		
-		double doubleNum=10.5;
+		double doubleNum=0.0;
 		doubleNum=10.5;
 		System.out.println(doubleNum/shortNum);
 		
