@@ -15,12 +15,12 @@ public class Qes2 {
 			System.out.println("対象外です");
 		}
 
-		int Age = 18;
-		if (Age >= 20) {
+		int aGe = 18;
+		if (aGe >= 20) {
 			System.out.println("成人です");
-		} else if (Age >= 13 && Age <= 19) {
+		} else if (aGe >= 13 && aGe <= 19) {
 			System.out.println("ティーンエイジャーです");
-		} else if (Age <= 12) {
+		} else if (aGe <= 12) {
 			System.out.println("子供です");
 		}
 
