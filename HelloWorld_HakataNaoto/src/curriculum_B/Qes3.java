@@ -6,38 +6,38 @@ import java.util.Scanner;
 public class Qes3 {
 
 	public static void main(String[] args) {
-		for (int i = 1; i <= 10; i++) {
-			System.out.println(i);
+		for (int i1 = 1; i1 <= 10; i1++) {
+			System.out.println(i1);
 		}
 
-		for (int i = 2; i <= 20; i += 2) {
-			System.out.println(i);
+		for (int i2 = 2; i2 <= 20; i2 += 2) {
+			System.out.println(i2);
 		}
 
-		for (int i = 10; i >= 1; i--) {
-			System.out.println(i);
+		for (int i3 = 10; i3 >= 1; i3--) {
+			System.out.println(i3);
 		}
 
 		int sum = 0;
-		for (int i = 1; i <= 100; i++) {
-			sum += i;
+		for (int i4 = 1; i4 <= 100; i4++) {
+			sum += i4;
 		}
 		System.out.println(sum);
 
-		for (int i = 1; i <= 5; i++) {
-			for (int j = 0; j < 5 - i; j++) {
+		for (int i5 = 1; i5 <= 5; i5++) {
+			for (int j = 0; j < 5 - i5; j++) {
 				System.out.print(" ");
 			}
-			for (int k = 0; k < i; k++) {
+			for (int k = 0; k < i5; k++) {
 				System.out.print("＊");
 			}
 			System.out.println();
 		}
 
-		int i = 1;
-		while (i <= 10) {
-			System.out.println(i);
-			i++;
+		int i6 = 1;
+		while (i6 <= 10) {
+			System.out.println(i6);
+			i6++;
 		}
 
 		int num = 2;
@@ -56,7 +56,7 @@ public class Qes3 {
 		int nUm = 1;
 
 		while (nUm <= 100) {
-			sUm += i;
+			sUm += i6;
 			nUm++;
 		}
 
@@ -74,7 +74,7 @@ public class Qes3 {
 				break;
 			}
 
-			scanner.close();
+			
 		}
 
 		String[] products = { "パソコン", "冷蔵庫", "扇風機", "洗濯機", "加湿器", "テレビ", "ディスプレイ", "スマホ" };
@@ -104,6 +104,8 @@ public class Qes3 {
 			}
 			String output = product + "の残り台数は " + remaining + "台です";
 			System.out.println(output);
+			
+			scanner.close();
 		}
 	}
 
