@@ -20,7 +20,7 @@ public class Qes4 {
 
 		int[] numbers3 = { 3, 5, 7, 9, 11 };
 
-		int sum = 0;
+		int sum = 0; 
 
 		for (int i = 0; i < numbers3.length; i++) {
 			sum += numbers3[i];
