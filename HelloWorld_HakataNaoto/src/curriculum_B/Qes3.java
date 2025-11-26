@@ -52,21 +52,19 @@ public class Qes3 {
 			count--;
 		}
 
-		int Sum = 0;
-		int Num = 1;
-		while (Num <= 100) {
-			Sum += Num;
-			Num++;
+		int sum2 = 0;
+		int num2 = 1;
+		while (num2 <= 100) {
+			sum2 += num2;
+			sum2++;
 		}
-		System.out.println("1から100の合計は"+Sum+"です");
-		
+		System.out.println("1から100の合計は" + sum2 + "です");
 
-	
 		Scanner scanner = new Scanner(System.in);
 		int input;
 
 		System.out.println("数値を入力してください（0で終了）");
-		
+
 		while (true) {
 			input = scanner.nextInt();
 			if (input == 0) {
@@ -74,15 +72,14 @@ public class Qes3 {
 				break;
 			}
 
-			
 		}
-		
+
 		String[] products = { "パソコン", "冷蔵庫", "扇風機", "洗濯機", "加湿器", "テレビ", "ディスプレイ", "スマホ" };
 		Random rand = new Random();
-		
+
 		int tvStock = rand.nextInt(12);
 		int displayStock = 11 - tvStock;
-		
+
 		for (String product : products) {
 			int remaining = 0;
 			switch (product) {
@@ -105,12 +102,9 @@ public class Qes3 {
 			}
 			String output = product + "の残り台数は " + remaining + "台です";
 			System.out.println(output);
-		
-			
-			scanner.close();
 		}
+
+		scanner.close();
+
 	}
 }
-
-
-
