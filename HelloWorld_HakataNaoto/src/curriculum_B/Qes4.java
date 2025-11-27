@@ -72,50 +72,50 @@ public class Qes4 {
 		} else {
 			System.out.println(input + "は配列に含まれていません");
 
-			int[][] Array = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+			int[][] array2 = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
 
-			for (int i = 0; i < Array.length; i++) {
-				for (int j = 0; j < Array[i].length; j++) {
-					System.out.print(Array[i][j] + " ");
+			for (int i = 0; i < array2.length; i++) {
+				for (int j = 0; j < array2[i].length; j++) {
+					System.out.print(array2[i][j] + " ");
 				}
-				System.out.println(Array);
+				System.out.println(array2);
 			}
 
-			int[][] Array2 = { { 10, 20, 30 }, { 40, 50, 60 }, { 70, 80, 90 } };
-			int Sum = 0;
+			int[][] array3 = { { 10, 20, 30 }, { 40, 50, 60 }, { 70, 80, 90 } };
+			int sum2 = 0;
 
-			for (int i = 0; i < Array2.length; i++) {
-				for (int j = 0; j < Array2[i].length; j++) {
-					Sum += Array2[i][j];
+			for (int i = 0; i < array3.length; i++) {
+				for (int j = 0; j < array3[i].length; j++) {
+					sum2 += array3[i][j];
 				}
 			}
-			System.out.println("配列のすべての要素の合計値: " + Sum);
+			System.out.println("配列のすべての要素の合計値: " + sum2);
 
-			int[][] Array3 = { { 12, 15, 8 }, { 6, 19, 25 }, { 30, 2, 10 } };
-			int Max = Array3[0][0];
-			int Min = Array3[0][0];
+			int[][] array4 = { { 12, 15, 8 }, { 6, 19, 25 }, { 30, 2, 10 } };
+			int max2 = array4[0][0];
+			int min2 = array4[0][0];
 
-			for (int i = 0; i < Array3.length; i++) {
-				for (int j = 0; j < Array3[i].length; j++) {
-					if (Array3[i][j] > Max) {
-						Max = Array3[i][j];
+			for (int i = 0; i < array4.length; i++) {
+				for (int j = 0; j < array4[i].length; j++) {
+					if (array4[i][j] > max2) {
+						max2 = array4[i][j];
 					}
-					if (Array3[i][j] < Min) {
-						Min = Array3[i][j];
+					if (array4[i][j] < min2) {
+						min2 = array4[i][j];
 					}
 				}
 			}
 
-			System.out.println("最大値: " + Max);
-			System.out.println("最小値: " + Min);
+			System.out.println("最大値: " + max2);
+			System.out.println("最小値: " + min2);
 		}
 
-		int[][][] Array4 = { { { 1, 2 }, { 3, 4 } }, { { 5, 6 }, { 7, 8 } } };
+		int[][][] array5 = { { { 1, 2 }, { 3, 4 } }, { { 5, 6 }, { 7, 8 } } };
 
-		for (int i = 0; i < Array4.length; i++) {
-			for (int j = 0; j < Array4[i].length; j++) {
-				for (int k = 0; k < Array4[i][j].length; k++) {
-					System.out.println("Array4[" + i + "][" + j + "][" + k + "] = " + Array4[i][j][k]);
+		for (int i = 0; i < array5.length; i++) {
+			for (int j = 0; j < array5[i].length; j++) {
+				for (int k = 0; k < array5[i][j].length; k++) {
+					System.out.println("array5[" + i + "][" + j + "][" + k + "] = " + array5[i][j][k]);
 				}
 			}
 		}
