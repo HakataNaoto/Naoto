@@ -1,10 +1,18 @@
 package curriculum_h;
 
-public class PartTimeEmployee {
+public class PartTimeEmployee extends Employee {
+	private static final int HOURLY_RATE = 1000;
 
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-
+	public PartTimeEmployee(String id, String name) {
+		super(id, name);
 	}
 
+	@Override
+	public int calculateDailyWage(int hoursWorked) {
+		return hoursWorked * HOURLY_RATE;
+	}
+
+
 }
+
+
