@@ -2,10 +2,14 @@ package curriculum_e;
 
 public class Employee {
 
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+	String name;
 
+	public void work() {
+		System.out.println(name + "は動いています。");
 	}
 
+
 }
+
+
 
