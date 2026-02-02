@@ -1,3 +1,4 @@
+package curriculum_e;
 
 public class Employee {
 
@@ -7,3 +8,4 @@ public class Employee {
 	}
 
 }
+
