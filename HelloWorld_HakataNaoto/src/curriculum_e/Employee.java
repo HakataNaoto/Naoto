@@ -8,8 +8,13 @@ public class Employee {
 		System.out.println(name + "は動いています。");
 	}
 
-
+		
+	
 }
+
+
+
+
 
 
 
