@@ -21,7 +21,7 @@ public class FullTimeEmployee extends Employee {
 
 
 
-	public static void main(String[] args) {
+	 {
 
 
 	}
