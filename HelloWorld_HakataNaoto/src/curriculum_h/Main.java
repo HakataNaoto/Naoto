@@ -1,7 +1,7 @@
 package curriculum_h;
 
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		FullTimeEmployee fullTime = new FullTimeEmployee("001", "");
 		PartTimeEmployee partTime = new PartTimeEmployee("002", "");
 
@@ -11,8 +11,4 @@ public class Main {
 		System.out.println("正社員の給与：" + fullTimeWage + "円");
 		System.out.println("パート社員の給与：" + partTimeWage + "円");
 	}
-
-
 }
-
-

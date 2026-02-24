@@ -1,5 +1,6 @@
 package curriculum_h;
 
+
 public class PartTimeEmployee extends Employee {
 	private static final int HOURLY_RATE = 1000;
 
@@ -7,12 +8,12 @@ public class PartTimeEmployee extends Employee {
 		super(id, name);
 	}
 
+	
+	
 	@Override
 	public int calculateDailyWage(int hoursWorked) {
 		return hoursWorked * HOURLY_RATE;
+		
+		
 	}
-
-
 }
-
-
