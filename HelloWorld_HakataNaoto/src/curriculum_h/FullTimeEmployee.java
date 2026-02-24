@@ -1,6 +1,5 @@
 package curriculum_h;
 
-
 public class FullTimeEmployee extends Employee {
 	private static final int HOURLY_RATE = 1200;
 
@@ -19,11 +18,9 @@ public class FullTimeEmployee extends Employee {
 		return wage;
 	}
 
-
-
-	 {
-
-
+	public static void main(String[] args) { 
+		FullTimeEmployee fullTime = new FullTimeEmployee("001", "");
+		int fullTimeWage = fullTime.calculateDailyWage(9);
+		System.out.println("正社員の給与：" + fullTimeWage + "円"); 
 	}
-
 }
