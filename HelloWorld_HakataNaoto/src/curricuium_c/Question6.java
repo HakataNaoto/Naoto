@@ -20,7 +20,7 @@ public class Question6 {
 
 			if (result.equals("あなたの勝ち！")) {
 				input.close();
-				break;
+				break; 
 			}
 		}
 	}
