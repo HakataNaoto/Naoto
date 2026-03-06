@@ -1,32 +1,34 @@
 package curriculum_h;
 
 public abstract class Employee {
-    protected String employeeId;
-    protected String name;
+	protected String employeeId;
+	protected String name;
 
-    public Employee(String id, String name) {
-        this.employeeId = id;
-        this.name = name;
-    }
+	public Employee(String id, String name) {
+		this.employeeId = id;
+		this.name = name;
+	}
 
-    public String getEmployeeId() {
-        return employeeId;
-    }
+	public String getEmployeeId() {
+		return employeeId;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public abstract int calculateDailyWage(int hoursWorked);
+	public abstract int calculateDailyWage(int hoursWorked);
 
-    public static void main(String[] args) {  // ここに挿入
-        FullTimeEmployee fullTime = new FullTimeEmployee("001", "");
-        PartTimeEmployee partTime = new PartTimeEmployee("002", "");
+	public static void main(String[] args) {
 
-        int fullTimeWage = fullTime.calculateDailyWage(9);
-        int partTimeWage = partTime.calculateDailyWage(9);
+		FullTimeEmployee fullTime = new FullTimeEmployee("001", "Salary");
+		PartTimeEmployee partTime = new PartTimeEmployee("002", "Salary");
 
-        System.out.println("正社員の給与：" + fullTimeWage + "円");
-        System.out.println("パート社員の給与：" + partTimeWage + "円");
-    }
+		int fullTimeWage = fullTime.calculateDailyWage(9);
+		int partTimeWage = partTime.calculateDailyWage(9);
+
+		System.out.println("正社員の給与：" + fullTimeWage + "円");
+		System.out.println("パート社員の給与：" + partTimeWage + "円");
+
+	}
 }
