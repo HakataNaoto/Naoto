@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Character {
 	private String name;
-	private int hp;
+	private int hp; 
 	private int at;
 	private int sp;
 

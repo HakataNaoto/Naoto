@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Question7 {
+public class Question7 { 
 
 	private static final String DAEMON_FILE = "daemon_status.txt";
 	private static final String LOG_FILE = "battle_log.txt";
